@@ -4,11 +4,22 @@ A CLI tool to summarize files in a directory using OpenAI.
 
 ## Installation
 
+### Step 1: Set up a virtual environment (recommended)
+
 ```bash
 cd repo-summarizer-py
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### Step 2: Install dependencies
+
+```bash
 pip install -r requirements.txt
 pip install -e .
 ```
+
+**Note:** To deactivate the virtual environment when you're done, run `deactivate`.
 
 ## Usage
 
